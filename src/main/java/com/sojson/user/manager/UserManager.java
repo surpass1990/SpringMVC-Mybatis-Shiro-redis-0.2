@@ -65,5 +65,8 @@ public class UserManager {
 		
 	}
 	
-	
+	public static void main(String[] args) {
+		String msg = md5Pswd("admin", "123456");
+		System.out.println(msg);
+	}
 }
